@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		94891E1A2B73165C00DB4444 /* eliteapartmentsappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94891E192B73165C00DB4444 /* eliteapartmentsappApp.swift */; };
-		94891E1C2B73165C00DB4444 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94891E1B2B73165C00DB4444 /* ContentView.swift */; };
 		94891E1E2B73165E00DB4444 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94891E1D2B73165E00DB4444 /* Assets.xcassets */; };
 		94891E212B73165E00DB4444 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94891E202B73165E00DB4444 /* Preview Assets.xcassets */; };
 		94891E2B2B73165F00DB4444 /* eliteapartmentsappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94891E2A2B73165F00DB4444 /* eliteapartmentsappTests.swift */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		94891E162B73165C00DB4444 /* eliteapartmentsapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eliteapartmentsapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94891E192B73165C00DB4444 /* eliteapartmentsappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eliteapartmentsappApp.swift; sourceTree = "<group>"; };
-		94891E1B2B73165C00DB4444 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		94891E1D2B73165E00DB4444 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94891E202B73165E00DB4444 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		94891E262B73165F00DB4444 /* eliteapartmentsappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eliteapartmentsappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,9 +92,10 @@
 		94891E182B73165C00DB4444 /* eliteapartmentsapp */ = {
 			isa = PBXGroup;
 			children = (
+				94891E4E2B731A2D00DB4444 /* Resources */,
+				94891E432B73197F00DB4444 /* ImageList */,
+				94891E4B2B7319EA00DB4444 /* ImageDetail */,
 				94891E192B73165C00DB4444 /* eliteapartmentsappApp.swift */,
-				94891E1B2B73165C00DB4444 /* ContentView.swift */,
-				94891E1D2B73165E00DB4444 /* Assets.xcassets */,
 				94891E1F2B73165E00DB4444 /* Preview Content */,
 			);
 			path = eliteapartmentsapp;
@@ -125,6 +124,100 @@
 				94891E362B73165F00DB4444 /* eliteapartmentsappUITestsLaunchTests.swift */,
 			);
 			path = eliteapartmentsappUITests;
+			sourceTree = "<group>";
+		};
+		94891E432B73197F00DB4444 /* ImageList */ = {
+			isa = PBXGroup;
+			children = (
+				94891E4A2B7319E400DB4444 /* Models */,
+				94891E492B7319C100DB4444 /* Views */,
+				94891E482B7319B800DB4444 /* ViewModels */,
+				94891E472B7319AE00DB4444 /* Services */,
+				94891E462B7319A500DB4444 /* Repositories */,
+				94891E452B73199D00DB4444 /* Helpers */,
+				94891E442B73199400DB4444 /* Protocols */,
+			);
+			path = ImageList;
+			sourceTree = "<group>";
+		};
+		94891E442B73199400DB4444 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		94891E452B73199D00DB4444 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		94891E462B7319A500DB4444 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		94891E472B7319AE00DB4444 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		94891E482B7319B800DB4444 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		94891E492B7319C100DB4444 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		94891E4A2B7319E400DB4444 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		94891E4B2B7319EA00DB4444 /* ImageDetail */ = {
+			isa = PBXGroup;
+			children = (
+				94891E4D2B731A0B00DB4444 /* Views */,
+				94891E4C2B731A0300DB4444 /* ViewModels */,
+			);
+			path = ImageDetail;
+			sourceTree = "<group>";
+		};
+		94891E4C2B731A0300DB4444 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		94891E4D2B731A0B00DB4444 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		94891E4E2B731A2D00DB4444 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				94891E1D2B73165E00DB4444 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +350,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94891E1C2B73165C00DB4444 /* ContentView.swift in Sources */,
 				94891E1A2B73165C00DB4444 /* eliteapartmentsappApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
