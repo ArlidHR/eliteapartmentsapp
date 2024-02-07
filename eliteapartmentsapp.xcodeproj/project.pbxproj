@@ -13,6 +13,19 @@
 		94891E2B2B73165F00DB4444 /* eliteapartmentsappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94891E2A2B73165F00DB4444 /* eliteapartmentsappTests.swift */; };
 		94891E352B73165F00DB4444 /* eliteapartmentsappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94891E342B73165F00DB4444 /* eliteapartmentsappUITests.swift */; };
 		94891E372B73165F00DB4444 /* eliteapartmentsappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94891E362B73165F00DB4444 /* eliteapartmentsappUITestsLaunchTests.swift */; };
+		94891E522B731BB000DB4444 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94891E512B731BB000DB4444 /* ImageModel.swift */; };
+		94891E542B731BDD00DB4444 /* ImageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94891E532B731BDD00DB4444 /* ImageListView.swift */; };
+		94891E562B731C0E00DB4444 /* ImageListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94891E552B731C0E00DB4444 /* ImageListViewModel.swift */; };
+		94891E582B731C4200DB4444 /* ImageRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94891E572B731C4200DB4444 /* ImageRepository.swift */; };
+		94891E5A2B731C6600DB4444 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94891E592B731C6600DB4444 /* ImageService.swift */; };
+		94891E5C2B731CD200DB4444 /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94891E5B2B731CD200DB4444 /* UserDefaultsHelper.swift */; };
+		94891E5F2B731D0700DB4444 /* Image+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94891E5E2B731D0700DB4444 /* Image+Extension.swift */; };
+		94891E612B731D6800DB4444 /* ImageServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94891E602B731D6800DB4444 /* ImageServiceProtocol.swift */; };
+		94891E632B731D9200DB4444 /* ImageRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94891E622B731D9200DB4444 /* ImageRepositoryProtocol.swift */; };
+		94891E652B731E4A00DB4444 /* ImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94891E642B731E4A00DB4444 /* ImageDetailView.swift */; };
+		94891E672B731E7600DB4444 /* ImageDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94891E662B731E7600DB4444 /* ImageDetailViewModel.swift */; };
+		94891E6D2B732E9B00DB4444 /* ImageListStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94891E6C2B732E9B00DB4444 /* ImageListStrings.swift */; };
+		94891E712B7330D900DB4444 /* ImageDetailStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94891E702B7330D900DB4444 /* ImageDetailStrings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +55,19 @@
 		94891E302B73165F00DB4444 /* eliteapartmentsappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eliteapartmentsappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94891E342B73165F00DB4444 /* eliteapartmentsappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eliteapartmentsappUITests.swift; sourceTree = "<group>"; };
 		94891E362B73165F00DB4444 /* eliteapartmentsappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eliteapartmentsappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		94891E512B731BB000DB4444 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		94891E532B731BDD00DB4444 /* ImageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListView.swift; sourceTree = "<group>"; };
+		94891E552B731C0E00DB4444 /* ImageListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListViewModel.swift; sourceTree = "<group>"; };
+		94891E572B731C4200DB4444 /* ImageRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRepository.swift; sourceTree = "<group>"; };
+		94891E592B731C6600DB4444 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		94891E5B2B731CD200DB4444 /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
+		94891E5E2B731D0700DB4444 /* Image+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extension.swift"; sourceTree = "<group>"; };
+		94891E602B731D6800DB4444 /* ImageServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageServiceProtocol.swift; sourceTree = "<group>"; };
+		94891E622B731D9200DB4444 /* ImageRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRepositoryProtocol.swift; sourceTree = "<group>"; };
+		94891E642B731E4A00DB4444 /* ImageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailView.swift; sourceTree = "<group>"; };
+		94891E662B731E7600DB4444 /* ImageDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailViewModel.swift; sourceTree = "<group>"; };
+		94891E6C2B732E9B00DB4444 /* ImageListStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListStrings.swift; sourceTree = "<group>"; };
+		94891E702B7330D900DB4444 /* ImageDetailStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailStrings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +118,7 @@
 		94891E182B73165C00DB4444 /* eliteapartmentsapp */ = {
 			isa = PBXGroup;
 			children = (
+				94891E6B2B732E6A00DB4444 /* Supporting Files */,
 				94891E4E2B731A2D00DB4444 /* Resources */,
 				94891E432B73197F00DB4444 /* ImageList */,
 				94891E4B2B7319EA00DB4444 /* ImageDetail */,
@@ -135,6 +162,7 @@
 				94891E472B7319AE00DB4444 /* Services */,
 				94891E462B7319A500DB4444 /* Repositories */,
 				94891E452B73199D00DB4444 /* Helpers */,
+				94891E5D2B731CF300DB4444 /* Extensions */,
 				94891E442B73199400DB4444 /* Protocols */,
 			);
 			path = ImageList;
@@ -143,6 +171,8 @@
 		94891E442B73199400DB4444 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				94891E602B731D6800DB4444 /* ImageServiceProtocol.swift */,
+				94891E622B731D9200DB4444 /* ImageRepositoryProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -150,6 +180,7 @@
 		94891E452B73199D00DB4444 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				94891E5B2B731CD200DB4444 /* UserDefaultsHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -157,6 +188,7 @@
 		94891E462B7319A500DB4444 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				94891E572B731C4200DB4444 /* ImageRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -164,6 +196,7 @@
 		94891E472B7319AE00DB4444 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				94891E592B731C6600DB4444 /* ImageService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -171,6 +204,7 @@
 		94891E482B7319B800DB4444 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				94891E552B731C0E00DB4444 /* ImageListViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -178,6 +212,7 @@
 		94891E492B7319C100DB4444 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				94891E532B731BDD00DB4444 /* ImageListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -185,6 +220,7 @@
 		94891E4A2B7319E400DB4444 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				94891E512B731BB000DB4444 /* ImageModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -201,6 +237,7 @@
 		94891E4C2B731A0300DB4444 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				94891E662B731E7600DB4444 /* ImageDetailViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -208,6 +245,7 @@
 		94891E4D2B731A0B00DB4444 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				94891E642B731E4A00DB4444 /* ImageDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -218,6 +256,23 @@
 				94891E1D2B73165E00DB4444 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		94891E5D2B731CF300DB4444 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				94891E5E2B731D0700DB4444 /* Image+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		94891E6B2B732E6A00DB4444 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94891E6C2B732E9B00DB4444 /* ImageListStrings.swift */,
+				94891E702B7330D900DB4444 /* ImageDetailStrings.swift */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,7 +405,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94891E612B731D6800DB4444 /* ImageServiceProtocol.swift in Sources */,
+				94891E5C2B731CD200DB4444 /* UserDefaultsHelper.swift in Sources */,
 				94891E1A2B73165C00DB4444 /* eliteapartmentsappApp.swift in Sources */,
+				94891E672B731E7600DB4444 /* ImageDetailViewModel.swift in Sources */,
+				94891E652B731E4A00DB4444 /* ImageDetailView.swift in Sources */,
+				94891E542B731BDD00DB4444 /* ImageListView.swift in Sources */,
+				94891E5F2B731D0700DB4444 /* Image+Extension.swift in Sources */,
+				94891E582B731C4200DB4444 /* ImageRepository.swift in Sources */,
+				94891E562B731C0E00DB4444 /* ImageListViewModel.swift in Sources */,
+				94891E6D2B732E9B00DB4444 /* ImageListStrings.swift in Sources */,
+				94891E522B731BB000DB4444 /* ImageModel.swift in Sources */,
+				94891E5A2B731C6600DB4444 /* ImageService.swift in Sources */,
+				94891E632B731D9200DB4444 /* ImageRepositoryProtocol.swift in Sources */,
+				94891E712B7330D900DB4444 /* ImageDetailStrings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +585,7 @@
 				DEVELOPMENT_TEAM = 65VSGS267M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Necesitamos acceder a tus fotos para que puedas seleccionar una para usar en nuestra aplicación";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -546,6 +615,7 @@
 				DEVELOPMENT_TEAM = 65VSGS267M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Necesitamos acceder a tus fotos para que puedas seleccionar una para usar en nuestra aplicación";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
